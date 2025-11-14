@@ -1,0 +1,45 @@
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+  padding: 15px;
+  display: flex;            
+  flex-direction: column;   
+  align-items: center;      
+}
+
+.card h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+  color: #3d1818;
+}
+
+.card p {
+  width: 100%;            
+  text-align: center;      
+  font-size: 14px;
+  line-height: 1.5;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.categoria2{
+    margin-bottom: 60px;
+}
